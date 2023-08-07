@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                   width: 20,
                 ),
                 AnimatedTextKit(
-                  totalRepeatCount: 10,
+                  totalRepeatCount: 20,
                   animatedTexts: [
                     RotateAnimatedText(
                       "Continuous Learner",

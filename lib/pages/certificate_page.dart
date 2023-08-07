@@ -12,11 +12,17 @@ class CertificatePage extends StatefulWidget {
 class _CertificatePageState extends State<CertificatePage> {
   List<String> imagesPath = [
     "asset/certifications/Data Science.jpg",
-    "asset/certifications/Getting Started with Git and Github.jpg"
+    "asset/certifications/Getting Started with Git and Github.jpg",
+    "asset/certifications/Python.jpg",
+    "asset/certifications/SQL Basic.jpg",
+    "asset/certifications/SQL Intermediate.jpg"
   ];
   List<String> certificationNames = [
     "Python for Data Science, AI & Development",
-    "Getting Stared With Git and Github"
+    "Getting Stared With Git and Github",
+    "Python Basics",
+    "SQL Basics",
+    "SQL Intermediate",
   ];
 
   @override
@@ -34,7 +40,6 @@ class _CertificatePageState extends State<CertificatePage> {
                 height: 300,
                 width: size.width,
                 decoration: BoxDecoration(
-                  color: Colors.red,
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: AssetImage(imagesPath[index]),
